@@ -40,4 +40,16 @@ class DeciderShould {
         // assert
         assertEquals("FizzBuzz", result);
     }
+
+    @Test
+    void decideTenIsBuzz() {
+        // arrange test conditions
+        Decider systemUnderTest = new Decider();
+
+        // act
+        String result = systemUnderTest.decide(10);
+
+        // assert
+        assertEquals("Buzz", result);
+    }
 }
