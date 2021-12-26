@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DeciderShould {
 
     @Test
-    @DisplayName("Low value starting test")
+    @DisplayName("Three is Fizz")
     void decideThreeIsFizz() {
         // arrange test conditions
         Decider systemUnderTest = new Decider();
@@ -16,5 +16,18 @@ class DeciderShould {
 
         // assert
         assertEquals("Fizz", result);
+    }
+
+    @Test
+    @DisplayName("Five is Buzz")
+    void decideFiveIsBuzz() {
+        // arrange test conditions
+        Decider systemUnderTest = new Decider();
+
+        // act
+        String result = systemUnderTest.decide(5);
+
+        // assert
+        assertEquals("Buzz", result);
     }
 }
