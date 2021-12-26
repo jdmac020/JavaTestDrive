@@ -39,8 +39,8 @@ architecture or discovery concerns. Suitable for the newbie to handle with minim
 
 #### Value Story:
 
-AS an operations specialist,
-I WANT to be able to identify high risk clients
+AS an operations specialist,\
+I WANT to be able to identify high risk clients\
 SO THAT I can take action to prevent revenue loss.
 
 #### Acceptance Criteria:
