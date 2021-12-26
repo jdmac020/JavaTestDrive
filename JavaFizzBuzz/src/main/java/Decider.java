@@ -3,6 +3,9 @@ public class Decider {
         if (input == 5) {
             return "Buzz";
         }
+        if (input == 15) {
+            return "FizzBuzz";
+        }
         return "Fizz";
     }
 }
