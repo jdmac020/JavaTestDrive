@@ -7,14 +7,14 @@ class DeciderShould {
 
     @Test
     @DisplayName("Low value starting test")
-    void decide() {
+    void decideThreeIsFizz() {
         // arrange test conditions
         Decider systemUnderTest = new Decider();
 
         // act
-        String result = systemUnderTest.decide("Test string");
+        String result = systemUnderTest.decide(3);
 
         // assert
-        assertEquals("FizzBuzz", result);
+        assertEquals("Fizz", result);
     }
 }

@@ -1,5 +1,5 @@
 public class Decider {
-    public String decide(String input) {
+    public String decide(int input) {
         return "Fizz";
     }
 }
