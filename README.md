@@ -3,7 +3,8 @@ A simple project for practicing test driven development and problem-solving.
 
 ## Projects / Katas
 
-- FizzBuzz
+- [FizzBuzz](./JavaFizzBuzz)
+- [RPG Combat](./RpgCombat)
 
 ## Misc
 
